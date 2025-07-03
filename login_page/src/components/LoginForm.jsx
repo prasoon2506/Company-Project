@@ -7,10 +7,10 @@ const LoginForm = () => {
   return (
     <div className="outer-container">
       <div className="login-box">
-        {/* Heading */}
+   
         <h2 className="heading">Helpdesk System</h2>
 
-        {/* Username Input */}
+      
         <input
           type="text"
           placeholder="Username"
@@ -18,7 +18,7 @@ const LoginForm = () => {
           required
         />
 
-        {/* Password Input */}
+     
         <input
           type="password"
           placeholder="Password"

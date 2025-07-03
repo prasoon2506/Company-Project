@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SignupFrom.css'; // Make sure your styles are in this file
+import './SignupFrom.css'; 
 
 const SignupForm = () => {
   return (
