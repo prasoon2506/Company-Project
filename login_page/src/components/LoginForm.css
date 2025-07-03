@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Roboto:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #55D6C2;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+/* Login Box */
+.login-box {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  height: 90%;
+  max-height: 700px;
+  background: #a3e4db;
+  /* border: 1px solid #0288d1; */
+  padding: 2rem 1rem;
+}
+
+/* Heading */
+.heading {
+  position: absolute;
+  width: 80%;
+  max-width: 601px;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 100%;
+  text-align: center;
+  color: black;
+}
+
+/* Username */
+.username-input {
+  position: absolute;
+  width: 80%;
+  max-width: 601px;
+  height: 60px;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Password */
+.password-input {
+  position: absolute;
+  width: 80%;
+  max-width: 601px;
+  height: 60px;
+  top: 42%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button */
+.btn {
+  position: absolute;
+  width: 60%;
+  max-width: 321px;
+  height: 60px;
+  top: 58%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00c400;
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+}
+
+/* Button Text */
+.btn-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Forgot Password */
+.forgot {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  font-size: 1rem;
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Sign Up */
+.signup {
+  position: absolute;
+  top: 75%;
+  right: 10%;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .btn-text {
+    font-size: 1.2rem;
+  }
+
+  .signup {
+    font-size: 1.2rem;
+  }
+
+  .forgot {
+    font-size: 0.9rem;
+  }
+}
